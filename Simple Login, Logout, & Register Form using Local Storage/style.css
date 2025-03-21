@@ -1,0 +1,278 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background: #EDE7E1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Container 1: Login Form */
+.login-form{
+	display: none;
+	width: auto;
+	height: auto;
+	padding: 32px;
+	box-shadow: 3px -3px 5px #ffffff70,
+		-3px 3px 5px #00000030;
+	border-radius: 20px;
+}
+
+.login-form .login{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-form .login h1{
+	font-size: 40px;
+	color: #242323;
+	margin-bottom: 24px;
+}
+
+.login-form .login .form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+}
+
+.login .form input{
+	all: unset;
+	border: 2px solid #363533;
+	border-radius: 6px;
+	padding: 8px; 
+}
+
+.login .form .btns{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.login .form .btns button{
+	all: unset;
+	color: #fff;
+	background: #202323;
+	padding: 6px 14px;
+	border: 2px solid #202323; 
+	border-radius: 30px;
+	box-shadow: 3px 3px 5px #00000050;
+	cursor: pointer;
+	transition: .5s ease;
+}
+
+.login .form .btns button:hover{
+	transform: scale(0.9);
+}
+
+.login .form .btns button:nth-child(2){
+	color: #202323;
+	background: transparent;
+	border: 2px solid #242323;
+}
+
+
+
+/* Container 2: Register Form */
+.register-form{
+	display: none;
+	width: auto;
+	height: auto;
+	padding: 32px;
+	box-shadow: 3px -3px 5px #ffffff70,
+		-3px 3px 5px #00000030;
+	border-radius: 20px;
+}
+
+.register-form .register{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.register-form .register h1{
+	font-size: 40px;
+	color: #242323;
+	margin-bottom: 24px;
+}
+
+.register-form .register .form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+}
+
+.register .form input{
+	all: unset;
+	border: 2px solid #363533;
+	border-radius: 6px;
+	padding: 8px; 
+}
+
+.register .form .btns{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.register .form .btns button{
+	all: unset;
+	color: #fff;
+	background: #202323;
+	padding: 6px 14px;
+	border: 2px solid #202323; 
+	border-radius: 30px;
+	box-shadow: 3px 3px 5px #00000050;
+	cursor: pointer;
+	transition: .5s ease;
+}
+
+.register .form .btns button:hover{
+	transform: scale(0.9);
+}
+
+.register .form .btns button:nth-child(2){
+	color: #202323;
+	background: transparent;
+	border: 2px solid #242323;
+}
+
+
+
+/* Container 3: Dashboard */
+.dashboard{
+	display: none;
+	place-items: center;
+	gap: 40px;
+	width: auto;
+	height: auto;
+	padding: 32px;
+	box-shadow: 3px -3px 5px #ffffff70,
+		-3px 3px 5px #00000030;
+	border-radius: 20px;
+}
+
+.dashboard .dash-btns button{
+	all: unset;
+	background: #202323;
+	color: #fff;
+	padding: 8px 16px;
+	border-radius: 30px;
+	box-shadow: 3px 3px 5px #00000050;
+	cursor: pointer;
+	transition: .5s ease;
+}
+
+
+
+.change-form{
+	display: none;
+	width: auto;
+	height: auto;
+	padding: 32px;
+	box-shadow: 3px -3px 5px #ffffff70,
+		-3px 3px 5px #00000030;
+	border-radius: 20px;
+}
+
+.change-form .change-password{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.change-form .change-password h1{
+	font-size: 40px;
+	color: #242323;
+	margin-bottom: 24px;
+}
+
+.change-form .change-password .form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+}
+
+
+.change-password .form input{
+	all: unset;
+	border: 2px solid #363533;
+	border-radius: 6px;
+	padding: 8px; 
+}
+
+.change-password .form .btns{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 16px;
+}
+
+.change-password .form .btns button{
+	all: unset;
+	color: #fff;
+	background: #202323;
+	padding: 6px 14px;
+	border: 2px solid #202323; 
+	border-radius: 30px;
+	box-shadow: 3px 3px 5px #00000050;
+	cursor: pointer;
+	transition: .5s ease;
+}
+
+.change-password .form .btns button:hover{
+	transform: scale(0.9);
+}
+
+.change-password .form .btns button:nth-child(2){
+	color: #202323;
+	background: transparent;
+	border: 2px solid #242323;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
