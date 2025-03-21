@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF=8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Simple Login Form w/Local Storage</title>
+	</head>
+
+	<body>
+		
+		<!-- Container 1: Login Form  -->
+		<main class="login-form">
+			<div class="login">
+				<h1>LOGIN</h1>
+				<div id="user-login" class="form">
+					<input type="text" id=username-input placeholder="Username">
+					<input type="password" id="password-input" placeholder="Password">
+					
+					<div class="btns">
+						<button id="login-btn-1">Login</button>
+						<button id="register-btn-1">Register</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+		<!-- Container 2: Register Form -->
+		<section class="register-form">
+			<div class="register">
+				<h1>REGISTER</h1>
+				<div id="user-register" class="form">
+					<input type="text" id="reg-name-input" placeholder="Enter Your Name">
+					<input type="text" id="reg-username-input" placeholder="Enter Your Username">
+					<input type="password" id="reg-password-input" placeholder="Enter Your Password">
+					<input type="password" id="reg-confirmPassword-input" placeholder="Confirm Your Password">
+
+					<div class="btns">
+						<button id="register-btn-2">Register</button>
+						<button id="login-btn-2">Login</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Container 3: Dashboard -->
+		<section class="dashboard">
+			<h1>Welcome!</h1>
+			<div class="dash-btns">
+				<button id="logout-btn">Logout</button>
+				<button id="changePW-btn">Change Password</button>
+				<button id="removePW-btn">Remove Account</button>
+			</div>
+		</section>
+
+
+		<!-- Container 3: Change password Form -->
+		<section class="change-form">
+			<div class="change-password">
+				<h1>Change Password</h1>
+				<div id="user-change-password" class="form">
+					<input type="password" id="old-password-input" placeholder="Enter your old password">
+					<input type="password" id="new-password-input" placeholder="Enter your new password">
+
+					<div class="btns">
+						<button id="change-password">Confirm</button>
+						<button id="cancel-change-password">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>
